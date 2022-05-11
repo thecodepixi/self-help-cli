@@ -8,6 +8,7 @@ import (
 	"strconv"
 )
 
+// TO DO: use Charm to store these in a KV DB
 var toDoList = []string{}
 
 func getUserInput() string {
@@ -23,6 +24,7 @@ func getUserInput() string {
 	return text
 }
 
+// eventually use this to have some sort of login functionality
 func username() {
 	fmt.Println("What's your name?...")
 
@@ -107,6 +109,7 @@ func removeToDos() {
 	}
 }
 
+// this is messy, maybe clean this up at some point
 func promptLoop() {
 	fmt.Println("Welcome to a stupid To Do app...")
 	fmt.Println("(type 'exit' at any time to quit")

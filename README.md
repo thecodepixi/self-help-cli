@@ -1,0 +1,1 @@
+ This is a silly little side project that I'm using to learn Go. Don't look at this too hard, it's gross.
